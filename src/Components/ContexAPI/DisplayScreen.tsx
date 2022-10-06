@@ -9,7 +9,10 @@ const DisplayScreen = () => {
       <h5>Thsi is the Dispaly Screen</h5>
       {value?.data.map((props) => (
         <div key={props.id}>
+          <hr />
           <div> {props.name} </div>
+          <div> {props.stack} </div>
+          <hr />
         </div>
       ))}
     </div>
